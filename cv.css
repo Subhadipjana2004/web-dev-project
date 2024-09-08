@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #1f242d;
+    color: #fff;
+
+}
+
+.block{
+    width: 300px;
+    height: 100%;
+
+}
+/* ... (rest of the stylesheet remains the same) */
+
+.block {
+    width: 300px;
+    height: 100%;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For screens with a maximum width of 1200px */
+  @media screen and (max-width: 1200px) {
+    .block {
+      width: 250px;
+    }
+  }
+  
+  /* For screens with a maximum width of 900px */
+  @media screen and (max-width: 900px) {
+    .block {
+      width: 200px;
+    }
+  }
+  
+  /* For screens with a maximum width of 600px */
+  @media screen and (max-width: 600px) {
+    .block {
+      width: 150px;
+    }
+  }
+  
+  /* For screens with a maximum width of 400px */
+  @media screen and (max-width: 400px) {
+    .block {
+      width: 100px;
+    }
+  }
